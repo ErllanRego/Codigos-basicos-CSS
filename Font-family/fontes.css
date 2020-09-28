@@ -1,0 +1,10 @@
+/*Ao inserirmos a propriedade “font-family” é possível editar a família de fontes do texto, é altamente recomendável inserir ao menos duas ou três fontes pois, caso o computador que for rodar o site não tenha a primeira fonte, neste caso a times new roman, ele irá rodar a fonte parecida chamada “times”, se não tiver essa, ele irá rodar qualquer fonte da família serif que o computador possua( lembrando que quando a fonte tem mais de uma palavra ela deve estar entre aspas). Daí vem o link das combinações de fontes seguras(https://www.w3schools.com/cssref/css_websafe_fonts.asp). Essas combinações de fontes são as que geralmente todo mundo tem. Os casos de fonte mais comuns de a pessoa não ter são geralmente fontes muito recentemente lançadas, ou fontes externas ou específicas demais.*/
+
+#fonteTexto{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Fontes para usar do google:
+https://www.w3schools.com/howto/howto_google_fonts.asp
+
+*/
