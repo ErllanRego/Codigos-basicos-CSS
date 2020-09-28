@@ -1,0 +1,20 @@
+/*Px=Tamanho de fonte fixo
+Em=Tamanho de fonte relativo à caixa pai
+%=Tamanho de fonte relativo
+
+(tamanho padrão da fonte é 16px)
+*/
+
+body{
+    font-size:1em /*O padrão é 16px, mas dá para alterar o padrão também. o 1em representa o tamanho da caixa pai( nesse caso é o body, mas é qualquer div em que o elemento esteja dentro*/
+}
+
+.porcentagem{
+    font-size:200%; /* 100% seria 16px que é o padrão, portanto com 200% fica 32px*/
+}
+
+.em{
+    font-size:2em; /*1em nesse caso representa 16px, então 2em é 32px.
+    O em é muito bom pois dá para editar os tamanhos sem precisar editar numeros especificos, basta colocar a quantidade de em*/
+}
+
