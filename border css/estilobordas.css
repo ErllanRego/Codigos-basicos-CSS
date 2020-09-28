@@ -1,0 +1,66 @@
+/*----TIPOS DE BORDAS----*/
+#dotted{
+    border:10px dotted red;
+}
+
+#dashed{
+    border:10px dashed red;
+}
+
+#solid{
+    border:10px solid red;
+}
+
+#double{
+    border:10px double red;
+}
+
+#groove{
+    border:10px groove red;
+}
+
+#ridge{
+    border:10px ridge red;
+}
+
+#inset{
+    border:10px inset red;
+}
+
+#outset{
+    border:10px outset red;
+}
+
+#none{
+    border:10px none red;/* None retira a borda*/
+}
+
+#hidden{
+    border:10px hidden red;/* Esconde a borda, mas ela ainda está lá*/
+}
+
+/*----ESTRUTURA DIFERENTE----*/
+
+#diferente{
+    /*É bom pra editar elementos específicos*/
+    border-style:dotted;
+    border-width:20px;
+    border-color:blue;
+}
+
+/*----FORMATANDO CADA LADO DA BORDA----*/
+
+#lado{
+    /*foram inseridas 4 cores diferentes na propriedade border-color, note que a forma de leitura do navegador foi no sentido horário, primeiro em cima, depois na direita, depois em baixo, depois na esquerda. Dá pra fazer a mesma coisa com as outras propriedades, no caso do with quando colocamos quatro valores de pixels(px) diferentes, cada borda fica com um tamanho diferente, seguindo a filosofia da leitura do código em sentido horário. No caso do style cada borda fica com um estilo diferente e assim por diante.*/
+    border:5px solid;
+    border-color:blue red green yellow;
+}
+
+/*----EDITANDO TODOS OS LADOS COM 2 VALORES----*/
+
+#doisValores{
+    /*O primeiro vai para o top e bottom, o segundo para left e right*/
+    border-style:dotted solid;
+    border:2px 10px;
+}
+
