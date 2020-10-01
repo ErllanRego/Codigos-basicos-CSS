@@ -1,0 +1,13 @@
+/*Nesse caso já colocamos a propriedade “font”, depois logo colocamos o “bold”, em seguida seu tamanho, e depois a família de fontes. É uma forma de economizar linhas de código.*/
+
+.agrupada{
+
+    font:bold 30px Arial,times , serif;
+
+    /*Ficar atento na sintaxe, um elemento escrito errado não deixa nenhum funcionar*/
+}
+
+
+/*!!!!!!!O w3Schols detalha mais essa sintaxe:
+https://www.w3schools.com/cssref/pr_font_font.asp
+*/
