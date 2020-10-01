@@ -1,0 +1,85 @@
+/*OPÇÕES DE USO NA PROPRIEDADE "font-weight:;"
+
+font-weight:bold; --> Deixa o texto em negrito
+
+font-weight: normal --> Tira o negrito do texto
+
+font-weight:900 --> Deixa negrito com base no valor, sendo o 100 o mais baixo e o 900 o mais alto
+
+
+
+
+
+
+
+
+/*----NEGRITO----*/
+
+#negrito{
+    /*Usando a propriedade “font-weight:bold” podemos deixar o texto em negrito. Weight vem de “peso” e “bold” significa negrito.*/
+    font-weight:bold;
+
+    /*Quando retiramos o bold (que significa negrito) e substituímos por “normal”, o negrito não é aplicado ao texto.*/
+}
+
+/*----Negrito (font-weight de 100 a 900)----*/
+.N100{
+    font-weight:100;
+}
+
+.N200{
+    font-weight:200;
+}
+
+.N300{
+    font-weight:300;
+}
+
+.N400{
+    font-weight:400;
+}
+
+.N500{
+    font-weight:500;
+}
+
+.N600{
+    font-weight:600;
+}
+
+.N700{
+    font-weight:700;
+}
+
+.N800{
+    font-weight:800;
+}
+
+.N900{
+    font-weight:900;
+}
+
+/*----TEXTO EM ITÁLICO----*/
+
+.italico{
+    font-style:italic;
+}
+
+
+/*----TEXTO SUBLINHADO----*/
+
+.underline{
+    text-decoration:underline;
+}
+
+/*----TEXTO SUBLINHADO EM CIMA----*/
+
+.overline{
+    text-decoration:overline;
+}
+
+/*Texto com linha na palavra/Texto escrito errado*/
+
+.line-through{
+    text-decoration:line-through;
+}
