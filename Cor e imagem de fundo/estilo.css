@@ -5,3 +5,7 @@
 #imagemDefundo{
     background:url('img/yoshi.png');
 }
+
+#imagemREPEAT{
+    background:url('img/yoshi.png');
+}   background-repeat:no-repeat;
