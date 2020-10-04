@@ -3,9 +3,28 @@
 }
 
 #imagemDefundo{
+    /*Se a div não for grande o bastante a imagem poderá aparecer cortada ou até nem aparecer*/
     background:url('img/yoshi.png');
 }
 
 #imagemREPEAT{
     background:url('img/yoshi.png');
-}   background-repeat:no-repeat;
+    background-repeat:no-repeat;
+    /*Mundando para "background-repeat:repeat;" a imagem volta a repetir, inclusive esse é o padrão.*/
+
+}   
+
+#imagemREPEATx{
+    background:url('img/yoshi.png');
+    background-repeat:repeat-x;
+    /*Usando o “repeat-x” a imagem só repete de forma horizontal, porque se refere ao eixo x.*/
+
+}   
+
+#imagemREPEATy{
+    background:url('img/yoshi.png');
+    background-repeat:repeat-y;
+    /*Da mesma forma, “repeat-y” faz a repetição de forma vertical.*/
+}   
+
+
