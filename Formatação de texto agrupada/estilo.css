@@ -1,4 +1,5 @@
 /*Nesse caso já colocamos a propriedade “font”, depois logo colocamos o “bold”, em seguida seu tamanho, e depois a família de fontes. É uma forma de economizar linhas de código.*/
+/*Ordem de elementos:font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;*/
 
 .agrupada{
 
