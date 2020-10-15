@@ -27,4 +27,43 @@
     /*Da mesma forma, “repeat-y” faz a repetição de forma vertical.*/
 }   
 
+#attachmentFixed{
+    background:url('img/yoshi.png');
+    background-attachment:fixed;
+    /*Dá pra colocar uns attachments também. Usando o “background-attachment:fixed;” podemos deixar o background fixo, ou seja, ela fica parada mesmo abaixando a barra de rolagem da página. Muito útil pra deixar uma imagem fixa de fundo no site.*/
+
+}
+
+#attachmentScroll{
+    background:url('img/yoshi.png');
+    background-attachment:scroll;
+    /*O attachment “scroll” é o inverso da anterior, conforme abaixamos a rodinha do mouse, ela continua lá em cima.*/
+}
+
+#backgroundPosition{
+    background:url('img/yoshi.png');
+    background-repeat:no-repeat;
+    background-position:center right;
+
+        /*Usando a propriedade “background-position” podemos definir a posição em que a imagem fica no site. Inclusive essa propriedade pode receber dois valores para definir sua posição tanto verticalmente quanto horizontalmente.
+            •	VERTICALMENTE:top-center-bottom
+            •	HORIZONTALMENTE:left-center-right
+
+        Left significa esquerdo, right significa direito, top é topo, e bottom significa inferior.*/
+
+}
+
+#agrupada{
+    background:#FFFA11 url('img/yoshi.png') repeat-x scroll top center;
+
+    /*É bom sempre colocar na ordem: 
+                1.cor
+				2.url da imagem
+				3.repetição (no-repeat, repeat-x, repeat-y)
+				4.scroll ou fixed
+                5.localização(top,center,left,bottom,right)
+    */
+
+}
+
 
