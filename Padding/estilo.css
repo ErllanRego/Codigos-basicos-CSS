@@ -1,0 +1,48 @@
+/*Padding e Margin são ambas tags para espaçamento. Padding é o espaçamento interno e o Margin é o espaçamento externo.*/
+
+
+/*----PADDING----*/
+
+#paddingumValor{
+    border:5px solid green;
+    padding:20px;
+}
+
+#paddingvaloresEspecificos{
+    border:5px solid green;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+
+    /*Dá pra colocar apenas os números, seguindo a regra do sentido horário (top,right,bottom,left)
+
+    Exemplo abaixo--> 
+    
+    padding:20px 20px 20px 20px;*/
+}
+
+/*----MARGIN----*/
+
+#marginumValor{
+    border:5px solid red;
+    margin:20px;
+}
+
+#marginvaloresEspecificos{
+    border:5px solid red;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+
+    /*O mesmo lance do sentido horário também funciona com margin:
+
+    margin:20px 20px 20px 20px;*/
+}
+
+/*SOBRE O MARGIN:
+    No caso dos “espaçamentos” se cruzarem, o que irá prevalecer é o maior, por exemplo, uma div tinha 30 px de margin enquanto a segunda possuía 20px, ao invés de um espaçamento de 50 px, será apenas 30px.
+
+    */
+
