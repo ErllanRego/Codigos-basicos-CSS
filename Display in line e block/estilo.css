@@ -1,0 +1,25 @@
+/*Elementos "block"(div, h1,p, table) por padrão ocupam todo o espaço da tela e se posicionam um em cima do outro, exatamente como blocos mesmo.*/
+
+#deBlockParaInline{
+    display:inline;
+    border:2px solid red;
+
+/*Com display podemos editar o comportamento padrão, no caso acima usamos o display para fazer com que a div passe a se comportar como um elemento In line. Ao invés  de ficar uma em cima da outra, elas ficam lado a lado em uma linha*/
+}
+
+
+/*Elementos in line(spam, strong) por padrão ficam lado a lado, ocupam o espaço como uma linha.*/
+
+#deInLineParaBlock{
+    display:block;
+    border:2px solid blue;
+
+    /*O spam é meio que uma div só que por padrão se comporta em In Line, com o display dá para alterar para block, e aí o spam passa a se posicionar um em cima do outro*/
+}
+
+#InLineBlock{
+    display:inline-block;
+    border:2px solid green;
+
+    /*O display: inline-block; é a junção dos dois, ele se mantem in line enquanto houver espaço, no caso do exemplo não havia espaço então o conteúdo 2 desceu.*/
+}

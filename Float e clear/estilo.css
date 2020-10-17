@@ -1,0 +1,29 @@
+#principal{
+    border: 5px solid green;
+    width:800px;
+    margin:0px auto;
+}
+/*Naturalmente quando criamos divs, por padrão ela fica uma em cima da outra, como caixas. Porém usando o float elas acabam ficando uma ao lado da outra. Código abaixo:*/
+.float{
+    float:left;/*----->Com "left" as divs com float são puxadas pra esquerda, "right" pra direita*/
+    border:5px solid blue;
+    width:200px;
+    height:200px;
+
+    /*Aplicando o “float”, as divs se tornam “objetos flutuantes”, ou seja, apatir de agora elas podem sobrepor outros objetos, porém rola esse “fluxo” que acaba bagunçando tanto as outras divs quanto o texto, que acaba ficando em volta dessas divs.*/
+}
+
+
+.clear{
+    clear:both;/*---->Pode-se colocar "left" quando queremos limpar o fluxo de um float que esteja em left, a mesma filosofia com o right, porém o "both"(ambos) já limpa de ambos os lados, Serve para criar uma classe e usar em vários lugares diferentes.*/
+    border:5px solid yellow;
+    margin:0px auto;
+
+
+
+    /*RESUMO:
+    Criando uma div com “clear” no css, ela limpa esse “fluxo”, e tudo volta ao normal.
+ Pode ser aplicado em left, right e both(ambos), o clear deve ser de acordo com a posição do float.*/
+
+}
+
