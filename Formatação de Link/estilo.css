@@ -1,0 +1,18 @@
+/*O link tem 4 estados, o não visitado, visitado, quando o cursor tá em cima e quando clica nele. Há formatações para cada etapa.*/
+
+a:link{/*Não visitado*/
+    color:blue;
+    text-decoration:none;/*--->É util tirar o sublinhado as vezes*/
+}
+
+a:visited{/*visitado*/
+    color:red;
+}
+
+a:hover{/*Quando o mouse passa em cima*/
+    color:yellow;
+}
+
+a:active{/*Quando o mouse clica*/
+    color:green;
+}
