@@ -1,0 +1,46 @@
+body{
+    background:#007fc7;
+}
+
+h1{
+    text-align:center;
+}
+
+#TagPosition{
+    background:#fff;
+    width:800px;
+    margin:20px auto;
+}
+
+#margin{
+    background:#fff;
+    width:800px;
+    margin:20px auto;/*Deixando o left/right no automático, a div centraliza automáticamente*/
+    
+    /*--->Note que no código foram colocados dois valores, lembre-se da regra que com dois valores. O primeiro valor vai pra top e bottom, e o segundo valor vai pra left e right. A regra dos 4 valores vale aqui também.*/
+}
+
+#static{
+    background:#fff;
+    width:800px;
+    margin:20px auto;
+    position:static;/*--->Com o uso do position:static; nada muda pois esse é o padrão.*/
+}
+
+#relative{
+    background:#fff;
+    border:2px solid red;
+    width:800px;
+    position:relative;/*-->Adicionando a tag “position:relative;” nada acontece, pois falta os parâmetros de tamanho. Para isso usamos top, right, bottom e left e adicionamos ou retiramos os pixels, daí a posição se altera.*/
+    top:30px;
+    left:70px;
+}
+
+#absolute{
+    background:#fff;
+    border:2px solid red;
+    width:800px;
+    position:absolute;
+    top:30px;
+    left:70px;
+}
