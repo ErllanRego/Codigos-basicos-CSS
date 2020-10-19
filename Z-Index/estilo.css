@@ -1,0 +1,32 @@
+/* O z-index serve para definir os elementos que aparecem primeiro. Acrescentando essa tag na formatação, quanto maior o número, maior a prioridade. No exemplo abaixo o z index do conteúdo 1 é 2, o conteúdo 2 tem o z index de 1, e o conteúdo 3 z index 0, por ter o maior número, o conteúdo 1 aparece na frente.
+Sem o z-index, os elementos aparecem conforme o código foi escrito.*/
+
+
+#conteudo1{
+    background:green;
+    width:200px;
+    height:200px;
+    position:absolute;
+    z-index:1;
+}
+
+#conteudo2{
+    background:blue;
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:80px;
+    left:80px;
+    z-index:2;
+}
+
+
+#conteudo3{
+    background:red;;
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:150px;
+    left:150px;
+    z-index:3;
+}

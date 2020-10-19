@@ -10,6 +10,7 @@ h1{
     background:#fff;
     width:800px;
     margin:20px auto;
+    position:relative;
 }
 
 #margin{
@@ -38,9 +39,23 @@ h1{
 
 #absolute{
     background:#fff;
-    border:2px solid red;
+    border:2px solid blue;
     width:800px;
     position:absolute;
+    top:auto;
+    left:auto;
+    
+    /*Quando acrescentamos a posição absolute, os demais parágrafos começam a se comportar como se aquele com a position:absolute; não existisse.
+
+    Ao contrário do relative( muda de posição de acordo com  o ponto de sua própria caixa), o absolute muda de acordo com o ponto principal da caixa dos outros( a caixa pai mais próxima que não seja static). Se todas as divs em volta do absolute forem static, ele irá se orientar de acordo com o body mesmo.*/
+}
+
+#fixed{/*--->O fixed é o mais simples, ele fixa o elemento na tela e ele fica na mesma posição mesmo rolando a página. É ideal para chats e menus.*/
+    
+    background:#fff;
+    border:2px solid green;
+    width:800px;
+    position:fixed;
     top:30px;
     left:70px;
 }
